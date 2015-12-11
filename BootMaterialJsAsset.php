@@ -1,6 +1,6 @@
 <?php
 
-namespace romdim\bootstrap\material;
+namespace softcommerce\bootstrap\material;
 
 use yii\web\AssetBundle;
 
