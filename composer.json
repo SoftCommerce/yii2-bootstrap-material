@@ -1,5 +1,5 @@
 {
-  "name": "romdim/yii2-bootstrap-material",
+  "name": "softcommerce/yii2-bootstrap-material",
   "description": "Composer package for implementing FezVrasta's bootstrap material design in Yii2.",
   "keywords": [
     "yii", "yii2", "bootstrap", "material"
@@ -15,17 +15,22 @@
       "name": "Romanos Tsouroplis",
       "email": "rom-dim@hotmail.com",
       "role": "Developer"
+    },
+    {
+      "name": "Oleg Ilyushyn",
+      "email": "iloa.exec@gmail.com"
+      "role": "Developer"
     }
   ],
   "minimum-stability": "stable",
   "require": {
     "yiisoft/yii2": "*",
     "yiisoft/yii2-bootstrap": "*",
-    "bower-asset/bootstrap-material-design": "*"
+    "bower-asset/bootstrap-material-design": "0.4.4"
   },
   "autoload": {
     "psr-4": {
-      "romdim\\bootstrap\\material\\": ""
+      "softcommerce\\bootstrap\\material\\": ""
     }
   }
 }
