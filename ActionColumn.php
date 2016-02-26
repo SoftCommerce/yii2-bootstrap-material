@@ -21,7 +21,7 @@ class ActionColumn extends \yii\grid\ActionColumn
                     'aria-label' => \Yii::t('yii', 'View'),
                     'data-pjax' => '0',
                 ], $this->buttonOptions);
-                return Html::a('<i class="mdi-action-pageview"></i>', $url, $options);
+                return Html::a('<i class="mdi mdi-pageview"></i>', $url, $options);
             };
         }
         if (!isset($this->buttons['update'])) {
@@ -31,7 +31,7 @@ class ActionColumn extends \yii\grid\ActionColumn
                     'aria-label' => \Yii::t('yii', 'Update'),
                     'data-pjax' => '0',
                 ], $this->buttonOptions);
-                return Html::a('<i class="mdi-editor-mode-edit"></i>', $url, $options);
+                return Html::a('<i class="mdi mode-edit"></i>', $url, $options);
             };
         }
         if (!isset($this->buttons['delete'])) {
@@ -43,7 +43,7 @@ class ActionColumn extends \yii\grid\ActionColumn
                     'data-method' => 'post',
                     'data-pjax' => '0',
                 ], $this->buttonOptions);
-                return Html::a('<i class="mdi-action-delete"></i>', $url, $options);
+                return Html::a('<i class="mdi mdi-delete"></i>', $url, $options);
             };
         }
     }
