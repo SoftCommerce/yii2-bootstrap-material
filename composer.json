@@ -4,6 +4,7 @@
   "keywords": [
     "yii", "yii2", "bootstrap", "material"
   ],
+  "version": "0.2.0",
   "type": "yii2-extension",
   "license": "MIT",
   "support": {
@@ -25,7 +26,7 @@
   "require": {
     "yiisoft/yii2": "*",
     "yiisoft/yii2-bootstrap": "*",
-    "bower-asset/bootstrap-material-design": "0.3.*"
+    "bower-asset/bootstrap-material-design": "*"
   },
   "autoload": {
     "psr-4": {
