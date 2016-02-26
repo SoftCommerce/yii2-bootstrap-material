@@ -18,5 +18,6 @@ class BootMaterialCssAsset extends AssetBundle
 	];
 	public $depends = [
 		'yii\bootstrap\BootstrapAsset',
+		'yii\materialicons\AssetBundle',
 	];
 }

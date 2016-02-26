@@ -4,7 +4,7 @@
   "keywords": [
     "yii", "yii2", "bootstrap", "material"
   ],
-  "version": "0.2.0",
+  "version": "0.2.1",
   "type": "yii2-extension",
   "license": "MIT",
   "support": {
@@ -26,6 +26,7 @@
   "require": {
     "yiisoft/yii2": "*",
     "yiisoft/yii2-bootstrap": "*",
+    "mervick/yii2-material-design-icons": "~1.0",
     "bower-asset/bootstrap-material-design": "*"
   },
   "autoload": {
