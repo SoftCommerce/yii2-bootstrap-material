@@ -31,7 +31,7 @@ class ActionColumn extends \yii\grid\ActionColumn
                     'aria-label' => \Yii::t('yii', 'Update'),
                     'data-pjax' => '0',
                 ], $this->buttonOptions);
-                return Html::a('<i class="mdi mode-edit"></i>', $url, $options);
+                return Html::a('<i class="mdi mdi-mode-edit"></i>', $url, $options);
             };
         }
         if (!isset($this->buttons['delete'])) {
