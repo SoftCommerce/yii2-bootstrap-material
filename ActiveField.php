@@ -11,7 +11,7 @@ class ActiveField extends \yii\bootstrap\ActiveField
      */
     public $form;
     public $options = ['class' => 'form-group form-control-wrapper'];
-    public $template = '{input}{label}<span class="material-input"></span>{error}{hint}';
+    public $template = '{label}{input}<span class="material-input"></span>{error}{hint}';
 
     public function label($label = null, $options = [])
     {
