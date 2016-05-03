@@ -32,6 +32,7 @@ class ActiveForm extends \yii\bootstrap\ActiveForm
         if (!isset($this->options['id'])) {
             $this->options['id'] = $this->getId();
         }
-        echo Html::beginForm($this->action, $this->method, $this->options);
+        ob_start();
+        ob_implicit_flush(false);
     }
 }
