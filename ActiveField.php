@@ -42,7 +42,7 @@ class ActiveField extends \yii\bootstrap\ActiveField
 
     public function checkbox($options = [], $enclosedByLabel = true)
     {
-        $options['template'] = "<div class=\"checkbox\">\n{beginLabel}\n{input}\n<span class=\"checkbox-material\"></span>{labelTitle}\n{endLabel}\n{error}\n{hint}\n</div>";
+        $options['template'] = "<div class=\"checkbox\">\n{beginLabel}\n{input}\n{labelTitle}\n{endLabel}\n{error}\n{hint}\n</div>";
         return parent::checkbox($options, $enclosedByLabel);
     }
 }
